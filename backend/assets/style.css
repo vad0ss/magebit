@@ -1,0 +1,92 @@
+h2 {
+    font-family: Georgia, sans-serif;
+    font-size: 1.667vw;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+}
+
+.table th,
+.table td {
+    text-align: center;
+    padding: 20px 25px;
+}
+
+tbody tr {
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.sort_filters_block {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin-left: 20%;
+}
+
+.sort_form {
+    margin-left: 10%;
+}
+
+.filters {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 55%;
+}
+
+.actions {
+    margin-left: 70%;
+}
+
+.search_block {
+    margin-left: 35%;
+}
+
+.center {
+    text-align: center;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
